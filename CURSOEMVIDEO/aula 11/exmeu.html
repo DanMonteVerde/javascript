@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt~BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head> 
+    <style>
+        body{
+            background: green;
+            color: blue;
+        }
+    </style>
+    <body>
+<h1>veja sua naçao</h1>
+<h1 id="vc"></h1>
+ <script>
+var pais = window.prompt("qual seu pais")
+var vce = window.document.getElementById("vc")
+if(pais == "Brasil") {
+  vce.innerHTML = ("voce e Brasileiro") 
+} else{
+    vce.innerHTML = ("voçe é Gringo")
+}
+ </script>   
+</body>
+</html>

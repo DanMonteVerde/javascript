@@ -1,0 +1,25 @@
+body{
+    background: red;
+}
+ 
+header{
+    color: aqua;
+    text-align: center;
+}
+
+section{
+    background: rgb(10, 167, 41);
+    border-radius: 10px;
+    padding: 15px; 
+    width: 500px;
+    margin:auto;
+    box-shadow: 9px 10px 0px ;
+    text-align: center;
+
+}   
+
+
+footer{
+    text-align: center;
+    color: greenyellow;
+}
